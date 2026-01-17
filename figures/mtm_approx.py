@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # -----------------------------
-# Parameters (from your TikZ)
+# Parameters
 # -----------------------------
 nintervals = 4
 intervalwidth = 1.0 / nintervals

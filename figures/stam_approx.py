@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # -----------------------------
-# Parameters (from your TikZ)
+# Parameters 
 # -----------------------------
 Nzero = 1
 None_ = 2
