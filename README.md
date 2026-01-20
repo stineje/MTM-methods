@@ -1,9 +1,13 @@
-# MTM-methods
+# MTM Methods
 
-Jacob Pease and James E. Stine<br>
-STAM/MTM generator<br>
+**Jacob Pease and James E. Stine**  
+STAM/MTM Generator
 
-To run this project, for now, you run this command:
+---
+
+## Running the Project
+
+To run this project, use the following command:
 
 ```bash
 python -m src.main
