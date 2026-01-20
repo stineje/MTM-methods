@@ -1,7 +1,7 @@
 # MTM-methods
 
-Jacob Pease and James E. Stine
-STAM/MTM generator
+Jacob Pease and James E. Stine<br>
+STAM/MTM generator<br>
 
 To run this project, for now, you run this command:
 
