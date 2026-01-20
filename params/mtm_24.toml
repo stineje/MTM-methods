@@ -1,0 +1,165 @@
+# The parameters defined here are pull straight from Table 3 in the
+# Multipartite paper. This is for the purpose of testing their
+# reported results both in simulation and in hardware.
+
+######################################################################
+# sin(pi/4 * x) 24-bit operands
+######################################################################
+[sin24_mtm_m1]
+method = "mtm"
+target = 1
+alpha = 15
+gamma = [7]
+beta = [9]
+g = 3
+wo = 24
+
+[sin24_mtm_m2]
+method = "mtm"
+target = 1
+alpha = 13
+gamma = [10, 6]
+beta = [4, 7]
+g = 3
+wo = 24
+
+[sin24_mtm_m3]
+method = "mtm"
+target = 1
+alpha = 12
+gamma = [10, 9, 6]
+beta = [3, 4, 5]
+g = 4
+wo = 24
+
+[sin24_mtm_m4]
+method = "mtm"
+target = 1
+alpha = 12
+gamma = [10, 10, 8, 7]
+beta = [2, 2, 4, 4]
+g = 4
+wo = 24
+
+[sin24_mtm_m5]
+method = "mtm"
+target = 1
+alpha = 12
+gamma = [10, 10, 9, 7, 6]
+beta = [2, 2, 2, 3, 3]
+g = 4
+wo = 24
+
+[sin24_mtm_m6]
+method = "mtm"
+target = 1
+alpha = 12
+gamma = [10, 10, 9, 8, 7, 5]
+beta = [2, 2, 2, 2, 2, 2]
+g = 4
+wo = 24
+
+######################################################################
+# 2^x 24-bit operands
+######################################################################
+[exp2_24_mtm_m1]
+method = "mtm"
+target = 6
+alpha = 15
+gamma = [8]
+beta = [9]
+g = 1
+wo = 23
+
+[exp2_24_mtm_m2]
+method = "mtm"
+target = 6
+alpha = 13
+gamma = [10, 8]
+beta = [5, 6]
+g = 2
+wo = 23
+
+[exp2_24_mtm_m3]
+method = "mtm"
+target = 6
+alpha = 12
+gamma = [11, 9, 7]
+beta = [3, 4, 5]
+g = 3
+wo = 23
+
+[exp2_24_mtm_m4]
+method = "mtm"
+target = 6
+alpha = 12
+gamma = [11, 10, 8, 8]
+beta = [2, 3, 3, 4]
+g = 3
+wo = 23
+
+[exp2_24_mtm_m5]
+method = "mtm"
+target = 6
+alpha = 12
+gamma = [11, 10, 9, 8, 8]
+beta = [2, 2, 2, 3, 3]
+g = 3
+wo = 23
+
+[exp2_24_mtm_m6]
+method = "mtm"
+target = 6
+alpha = 12
+gamma = [11, 10, 9, 8, 8, 8]
+beta = [2, 2, 2, 2, 2, 2]
+g = 3
+wo = 23
+
+######################################################################
+# 1/x 24-bit operands
+######################################################################
+[recip_24_mtm_m1]
+method = "mtm"
+target = 8
+alpha = 15
+gamma = [9]
+beta = [8]
+g = 5
+wo = 23
+
+[recip_24_mtm_m2]
+method = "mtm"
+target = 8
+alpha = 14
+gamma = [11, 8]
+beta = [3, 6]
+g = 3
+wo = 23
+
+[recip_24_mtm_m3]
+method = "mtm"
+target = 8
+alpha = 13
+gamma = [12, 10, 8]
+beta = [2, 3, 5]
+g = 4
+wo = 23
+
+[recip_24_mtm_m4]
+method = "mtm"
+target = 8
+alpha = 13
+gamma = [11, 11, 10, 9]
+beta = [2, 2, 3, 3]
+g = 4
+wo = 23
+
+[recip_24_mtm_m5]
+method = "mtm"
+target = 8
+alpha = 13
+gamma = [11, 11, 10, 9, 8]
+beta = [2, 2, 2, 2, 2]
+g = 5
+wo = 23

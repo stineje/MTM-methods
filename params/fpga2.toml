@@ -1,0 +1,35 @@
+[exp2_m2]
+method = "autostam"
+target = 6
+n = 24
+p = 23
+m = 2
+
+[exp2_m3]
+method = "autostam"
+target = 6
+n = 24
+p = 23
+m = 3
+
+[exp2_m4]
+method = "autostam"
+target = 6
+n = 24
+p = 23
+m = 4
+
+[exp2_m5]
+method = "autostam"
+target = 6
+n = 24
+p = 23
+m = 5
+
+[exp2_m6]
+method = "autostam"
+target = 6
+n = 24
+p = 23
+m = 6
+

@@ -1,0 +1,26 @@
+[exp2_m2]
+method = "autostam"
+target = 6
+n = 18
+p = 18
+m = 2
+
+[exp2_m3]
+method = "autostam"
+target = 6
+n = 18
+p = 18
+m = 3
+
+# [exp2_m4]
+# method = "autostam"
+# target = 6
+# n = 18
+# p = 18
+# m = 4
+[exp2_m4]
+method = "stam"
+target = 6
+n = [7, 3, 2, 2, 3]
+p = 18
+g = 3

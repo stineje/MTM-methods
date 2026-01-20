@@ -1,0 +1,151 @@
+# The 24-bit operand STAM parameters defined here are pulled straight
+# from Table 4 in the STAM paper. This is for the purpose of testing
+# their reported results both in simulation and in hardware.
+
+######################################################################
+# 1/x 24-bit operands
+######################################################################
+[recip_24_stam_m2]
+method = "stam"
+target = 8
+n = [9, 7, 7]
+p = 23
+g = 2
+
+[recip_24_stam_m3]
+method = "stam"
+target = 8
+n = [11, 3, 4, 5]
+p = 23
+g = 3
+
+[recip_24_stam_m4]
+method = "stam"
+target = 8
+n = [11, 3, 3, 3, 3]
+p = 23
+g = 4
+
+[recip_24_stam_m5]
+method = "stam"
+target = 8
+n = [11, 3, 2, 2, 3, 3]
+p = 23
+g = 4
+
+# m = 6 would have been included, but it has a partition that is only
+# 1 bit. I have not tested 1 bit partitions yet.
+
+######################################################################
+# sqrt(x) 24-bit operands
+######################################################################
+[sqrt_24_stam_m2]
+method = "stam"
+target = 5
+n = [7, 7, 9]
+p = 23
+g = 2
+
+[sqrt_24_stam_m3]
+method = "stam"
+target = 5
+n = [8, 5, 5, 5]
+p = 23
+g = 3
+
+[sqrt_24_stam_m4]
+method = "stam"
+target = 5
+n = [9, 3, 3, 4, 4]
+p = 23
+g = 4
+
+[sqrt_24_stam_m5]
+method = "stam"
+target = 5
+n = [9, 3, 2, 3, 3, 3]
+p = 23
+g = 4
+
+[sqrt_24_stam_m6]
+method = "stam"
+target = 5
+n = [9, 3, 2, 2, 2, 2, 3]
+p = 23
+g = 5
+
+######################################################################
+# sin(x) 24-bit operands
+######################################################################
+[sin_24_stam_m2]
+method = "stam"
+target = 3
+n = [8, 8, 8]
+p = 24
+g = 2
+
+[sin_24_stam_m3]
+method = "stam"
+target = 3
+n = [10, 4, 5, 5]
+p = 24
+g = 3
+
+[sin_24_stam_m4]
+method = "stam"
+target = 3
+n = [10, 4, 3, 3, 4]
+p = 24
+g = 4
+
+[sin_24_stam_m5]
+method = "stam"
+target = 3
+n = [11, 2, 2, 3, 3, 3]
+p = 24
+g = 4
+
+[sin_24_stam_m6]
+method = "stam"
+target = 3
+n = [11, 2, 2, 2, 2, 2, 3]
+p = 24
+g = 5
+
+######################################################################
+# 2^x 24-bit operands
+######################################################################
+[exp2_stam_m2]
+method = "stam"
+target = 6
+n = [8, 7, 9]
+p = 23
+g = 2
+
+[exp2_stam_m3]
+method = "stam"
+target = 6
+n = [9, 5, 5, 5]
+p = 23
+g = 3
+
+[exp2_stam_m4]
+method = "stam"
+target = 6
+n = [10, 3, 3, 4, 4]
+p = 23
+g = 4
+
+[exp2_stam_m5]
+method = "stam"
+target = 6
+n = [10, 3, 2, 3, 3, 3]
+p = 23
+g = 4
+
+[exp2_stam_m6]
+method = "stam"
+target = 6
+n = [10, 3, 2, 2, 2, 2, 3]
+p = 23
+g = 5

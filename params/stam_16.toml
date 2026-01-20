@@ -1,0 +1,99 @@
+# The 16-bit operand STAM parameters defined here are pulled straight
+# from Table 3 in the STAM paper. This is for the purpose of testing
+# their reported results both in simulation and in hardware.
+
+######################################################################
+# 1/x 16-bit operands
+######################################################################
+[recip_16_stam_m2]
+method = "stam"
+target = 8
+n = [6, 4, 5]
+p = 15
+g = 2
+
+[recip_16_stam_m3]
+method = "stam"
+target = 8
+n = [7, 2, 3, 3]
+p = 15
+g = 3
+
+[recip_16_stam_m4]
+method = "stam"
+target = 8
+n = [7, 2, 2, 2 2]
+p = 15
+g = 4
+
+######################################################################
+# sqrt(x) 16-bit operands
+######################################################################
+[sqrt_16_stam_m2]
+method = "stam"
+target = 5
+n = [4, 5, 6]
+p = 15
+g = 2
+
+[sqrt_16_stam_m3]
+method = "stam"
+target = 5
+n = [5, 3, 3, 4]
+p = 15
+g = 3
+
+[sqrt_16_stam_m4]
+method = "stam"
+target = 5
+n = [5, 3, 2, 2, 3]
+p = 15
+g = 4
+
+######################################################################
+# sin(x) 16-bit operands
+######################################################################
+[sin_16_stam_m2]
+method = "stam"
+target = 3
+n = [6, 4, 6]
+p = 16
+g = 2
+
+[sin_16_stam_m3]
+method = "stam"
+target = 3
+n = [7, 2, 3, 4]
+p = 16
+g = 3
+
+[sin_16_stam_m4]
+method = "stam"
+target = 3
+n = [7, 2, 2, 2, 3]
+p = 16
+g = 4
+
+######################################################################
+# 2^x 16-bit operands
+######################################################################
+[exp2_stam_m2]
+method = "stam"
+target = 6
+n = [5, 5, 6]
+p = 15
+g = 2
+
+[exp2_stam_m3]
+method = "stam"
+target = 6
+n = [6, 3, 3, 4]
+p = 15
+g = 3
+
+[exp2_stam_m4]
+method = "stam"
+target = 6
+n = [6, 3, 2, 2, 3]
+p = 15
+g = 4

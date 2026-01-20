@@ -1,0 +1,35 @@
+[sin_m2]
+method = "autostam"
+target = 0
+n = 24
+p = 24
+m = 2
+
+[sin_m3]
+method = "autostam"
+target = 0
+n = 24
+p = 24
+m = 3
+
+[sin_m4]
+method = "autostam"
+target = 0
+n = 24
+p = 24
+m = 4
+
+[sin_m5]
+method = "autostam"
+target = 0
+n = 24
+p = 24
+m = 5
+
+[sin_m6]
+method = "autostam"
+target = 0
+n = 24
+p = 24
+m = 6
+

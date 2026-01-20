@@ -1,0 +1,112 @@
+# The 16-bit operand Multipartite parameters defined here are pull
+# straight from Table 2 in the Multipartite paper. This is for the
+# purpose of testing their reported results both in simulation and in
+# hardware.
+
+######################################################################
+# sin(pi/4 * x) 16-bit operands
+######################################################################
+[sin16_mtm_m1]
+method = "mtm"
+target = 1
+alpha = 10
+gamma = [5]
+beta = [6]
+g = 1
+wo = 16
+
+[sin16_mtm_m2]
+method = "mtm"
+target = 1
+alpha = 8
+gamma = [6, 5]
+beta = [4, 4]
+g = 3
+wo = 16
+
+[sin16_mtm_m3]
+method = "mtm"
+target = 1
+alpha = 8
+gamma = [7, 5, 4]
+beta = [2, 3, 3]
+g = 2
+wo = 16
+
+[sin16_mtm_m4]
+method = "mtm"
+target = 1
+alpha = 8
+gamma = [6, 6, 5, 5]
+beta = [2, 2, 2, 2]
+g = 3
+wo = 16
+
+######################################################################
+# 2^x 16-bit operands
+######################################################################
+[exp2_16_mtm_m1]
+method = "mtm"
+target = 6
+alpha = 10
+gamma = [5]
+beta = [6]
+g = 1
+wo = 15
+
+[exp2_16_mtm_m2]
+method = "mtm"
+target = 6
+alpha = 8
+gamma = [7, 5]
+beta = [3, 5]
+g = 2
+wo = 15
+
+[exp2_16_mtm_m3]
+method = "mtm"
+target = 6
+alpha = 8
+gamma = [7, 6, 4]
+beta = [2, 3, 3]
+g = 2
+wo = 15
+
+[exp2_16_mtm_m4]
+method = "mtm"
+target = 6
+alpha = 8
+gamma = [7, 6, 5, 4]
+beta = [2, 2, 2, 2]
+g = 2
+wo = 15
+
+######################################################################
+# 1/x 16-bit operands
+######################################################################
+[recip_16_mtm_m1]
+method = "mtm"
+target = 8
+alpha = 10
+gamma = [7]
+beta = [5]
+g = 1
+wo = 15
+
+[recip_16_mtm_m2]
+method = "mtm"
+target = 8
+alpha = 9
+gamma = [7, 6]
+beta = [3, 3]
+g = 3
+wo = 15
+
+[recip_16_mtm_m3]
+method = "mtm"
+target = 8
+alpha = 9
+gamma = [8, 7, 5]
+beta = [2, 2, 2]
+g = 2
+wo = 15

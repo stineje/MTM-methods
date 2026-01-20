@@ -1,0 +1,15 @@
+[log2_stam]
+method = "stam"
+target = 7
+n = [5, 5, 5]
+p = 15
+g = 1
+
+[log2_mtm]
+method = "mtm"
+target = 7
+alpha = 10
+gamma = [5]
+beta = [5]
+g = 1
+wo = 15

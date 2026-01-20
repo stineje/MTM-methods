@@ -1,0 +1,30 @@
+# STAM needs fewer variables to define it. The number of partitions
+# and tables is defined by the length of `n`. The input bit width is
+# defined by the sum of the elements of `n`.
+[exp2_stam]
+method = "stam"
+target = 6
+n = [4, 6, 6]
+p = 15
+g = 2
+
+# Since alpha is separate from gamma and beta, we have to define all three here. 
+[exp2_mtm]
+method = "mtm"
+target = 6
+alpha = 8
+gamma = [7, 6, 5]
+beta = [2, 3, 3]
+g = 2
+wo = 16
+
+[exp2_autostam]
+method = "autostam"
+target = 6
+n = 16
+p = 16
+m = 3
+
+[bogus]
+method = "bogus"
+target = 6

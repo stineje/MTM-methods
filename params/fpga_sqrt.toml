@@ -1,0 +1,35 @@
+[sqrt_m2]
+method = "autostam"
+target = 5
+n = 23
+p = 23
+m = 2
+
+[sqrt_m3]
+method = "autostam"
+target = 5
+n = 23
+p = 23
+m = 3
+
+[sqrt_m4]
+method = "autostam"
+target = 5
+n = 23
+p = 23
+m = 4
+
+[sqrt_m5]
+method = "autostam"
+target = 5
+n = 23
+p = 23
+m = 5
+
+[sqrt_m6]
+method = "autostam"
+target = 5
+n = 23
+p = 23
+m = 6
+

@@ -1,0 +1,4 @@
+[project]
+name = "table-addition-methods"
+version = "0.1.0"
+dependencies = ["pytest"]  # Add other dependencies as needed

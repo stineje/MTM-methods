@@ -1,5 +1,8 @@
 # MTM-methods
 
+Jacob Pease and James E. Stine
+STAM/MTM generator
+
 To run this project, for now, you run this command:
 
 ```bash

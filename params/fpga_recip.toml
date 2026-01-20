@@ -1,0 +1,34 @@
+[recip_m2]
+method = "autostam"
+target = 8
+n = 23
+p = 23
+m = 2
+
+[recip_m3]
+method = "autostam"
+target = 8
+n = 23
+p = 23
+m = 3
+
+[recip_m4]
+method = "autostam"
+target = 8
+n = 23
+p = 23
+m = 4
+
+[recip_m5]
+method = "autostam"
+target = 8
+n = 23
+p = 23
+m = 5
+
+[recip_m6]
+method = "autostam"
+target = 8
+n = 23
+p = 23
+m = 6
