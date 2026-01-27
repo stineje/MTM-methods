@@ -1,7 +1,8 @@
 # MTM Methods
 
-**Jacob Pease and James E. Stine**  
-STAM/MTM Generator
+** Jacob Pease and James E. Stine **  
+SBTM/STAM/MTM Generator
+Oklahoma State University
 
 ---
 
