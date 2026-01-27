@@ -1,0 +1,131 @@
+# The parameters defined here are equivalent to Table 3 in the
+# Multipartite paper. This is for the purpose of comapring AutoSTAM
+# with their reported results both in simulation and in hardware.
+
+######################################################################
+# sin(pi/4 * x) 24-bit operands
+######################################################################
+[sin24_autostam_m2]
+method = "autostam"
+target = 1
+n = 24
+p = 24
+m = 2
+
+[sin24_autostam_m3]
+method = "autostam"
+target = 1
+n = 24
+p = 24
+m = 3
+
+[sin24_autostam_m4]
+method = "autostam"
+target = 1
+n = 24
+p = 24
+m = 4
+
+[sin24_autostam_m5]
+method = "autostam"
+target = 1
+n = 24
+p = 24
+m = 5
+
+[sin24_autostam_m6]
+method = "autostam"
+target = 1
+n = 24
+p = 24
+m = 6
+
+# [sin24_autostam_m7]
+# method = "autostam"
+# target = 1
+# n = 24
+# p = 24
+# m = 7
+
+######################################################################
+# 2^x 24-bit operands
+######################################################################
+[exp2_24_autostam_m2]
+method = "autostam"
+target = 6
+n = 24
+p = 23
+m = 2
+
+[exp2_24_autostam_m3]
+method = "autostam"
+target = 6
+n = 24
+p = 23
+m = 3
+
+[exp2_24_autostam_m4]
+method = "autostam"
+target = 6
+n = 24
+p = 23
+m = 4
+
+[exp2_24_autostam_m5]
+method = "autostam"
+target = 6
+n = 24
+p = 23
+m = 5
+
+[exp2_24_autostam_m6]
+method = "autostam"
+target = 6
+n = 24
+p = 23
+m = 6
+
+# [exp2_24_autostam_m7]
+# method = "autostam"
+# target = 6
+# n = 24
+# p = 23
+# m = 7
+
+######################################################################
+# 1/x 24-bit operands
+######################################################################
+[recip_24_autostam_m2]
+method = "autostam"
+target = 8
+n = 23
+p = 23
+m = 2
+
+[recip_24_autostam_m3]
+method = "autostam"
+target = 8
+n = 23
+p = 23
+m = 3
+
+[recip_24_autostam_m4]
+method = "autostam"
+target = 8
+n = 23
+p = 23
+m = 4
+
+[recip_24_autostam_m5]
+method = "autostam"
+target = 8
+n = 23
+p = 23
+m = 5
+
+[recip_24_autostam_m6]
+method = "autostam"
+target = 8
+n = 23
+p = 23
+m = 6

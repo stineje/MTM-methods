@@ -1,0 +1,49 @@
+# [sin16_mtm_m3]
+# method = "mtm"
+# target = 1
+# alpha = 8
+# gamma = [7, 5, 4]
+# beta = [2, 3, 3]
+# g = 2
+# wo = 16
+# trunc = true
+
+# [sin16_mtm_m4]
+# method = "mtm"
+# target = 1
+# alpha = 8
+# gamma = [6, 6, 5, 5]
+# beta = [2, 2, 2, 2]
+# g = 3
+# wo = 16
+# trunc = true
+
+# [exp2_16_mtm_m4]
+# method = "mtm"
+# target = 6
+# alpha = 8
+# gamma = [7, 6, 5, 4]
+# beta = [2, 2, 2, 2]
+# g = 2
+# wo = 15
+# trunc = true
+
+[sin24_mtm_m6]
+method = "mtm"
+target = 0
+alpha = 12
+gamma = [10, 10, 9, 8, 7, 5]
+beta = [2, 2, 2, 2, 2, 2]
+g = 4
+wo = 24
+trunc = true
+
+# [exp2_24_mtm_m6]
+# method = "mtm"
+# target = 6
+# alpha = 12
+# gamma = [11, 10, 9, 8, 8, 8]
+# beta = [2, 2, 2, 2, 2, 2]
+# g = 3
+# wo = 23
+# trunc = true
